@@ -23,7 +23,7 @@
 * No warranties are given.
 ]]--
 
-_addon.author   = 'atom0s & Lolwutt, adapted by paige_404';
+_addon.author   = 'atom0s & Lolwutt, adapted by paige404';
 _addon.name     = 'Checker';
 _addon.version  = '3.0.0';
 
