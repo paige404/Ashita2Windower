@@ -174,7 +174,7 @@ windower.register_event('incoming chunk', function(id, original, modified, injec
     -- Widescan Result Packet
     if (id == PACKET_IDS.WIDESCAN_RESULT_PACKET) then
         local parsed = packets.parse('incoming', original)
-        local index = parsed.Target; -- Entity Index
+        local index = parsed.Index; -- Entity Index
         local level = parsed.Level; -- Entity Level
         
         -- Store the index and level information..
